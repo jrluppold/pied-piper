@@ -1,7 +1,7 @@
 package com.zeroindexed.piedpiper;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -12,7 +12,7 @@ import java.io.ByteArrayInputStream;
 import java.nio.charset.Charset;
 
 
-public class MainActivity extends ActionBarActivity implements ToneThread.ToneCallback {
+public class MainActivity extends AppCompatActivity implements ToneThread.ToneCallback {
     static final int REQUEST_IMAGE_CAPTURE = 1;
     static final int FEC_BYTES = 4;
 
